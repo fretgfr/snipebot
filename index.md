@@ -1,7 +1,5 @@
 
 
-# A fun bot for your Discord server.
-
 SnipeBot is a Discord bot that allows you to "snipe" deleted messages, edited messages, and removed reactions. Deleted messages that had images and other attachments are also tracked.
 
 "Snipes" are only held for a while, so make sure you snipe while you can!
@@ -37,4 +35,3 @@ If you'd like to Beta test new features, please join the [support server][suppor
 Please report bugs in the [support server][support server].
 
 [support server]: https://discord.gg/f64pfnqbJJ
-
