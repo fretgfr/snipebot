@@ -35,3 +35,53 @@ If you'd like to Beta test new features, please join the [support server][suppor
 Please report bugs in the [support server][support server].
 
 [support server]: https://discord.gg/f64pfnqbJJ
+
+# Changelog
+
+# Changes (10-24-2022)
+## Changes to snipes
+
+- All snipes now take an optional `channel` that you so you can snipe in different channels.
+- All options for all commands have help text now.
+- All attachments on deleted messages are now tracked again rather than just images.
+
+### Removing snipes
+The ability to remove snipes has been added.
+
+**Note:** All commands that remove snipes require ***__Manage Messages__*** permissions unless overridden by you in your server's Integrations settings. Changing this requirement is not recommended.
+
+#### The following commands remove snipes
+- rmsnipe: One snipe
+- rmsnipes: All snipes
+- rmesnipe: One edit snipe
+- rmesnipes: All edit snipes
+- rmrsnipe: One reaction snipe
+- rmresnipes: All reaction snipes
+
+## Other
+- Fixed an issue where you can't snipe someone who has left or been kicked/banned from your server.
+- `aim` now takes a User instead of a Member. This means you can now input any user's id and it will generate an aim for them.
+- Various performance improvements
+
+# Changes 10-26-2022
+
+- Fixed `rmesnipe` not working properly.
+
+# Changes 11-8-2022
+
+### Added paginated snipe commands.
+- isnipe
+- iesnipe
+- irsnipe
+
+The name/method of using these is subject to change in the near future if I think of a better way.
+
+These commands give you an interactive way to look through all of the snipes in a channel without running commands repeatedly.
+
+### Increased message cache size.
+
+The message cache size has increase by 2.5x. This means that more deleted/edited messages will be caught.
+
+# Changes 11-19-22
+
+Changed embed color scheme.
